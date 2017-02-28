@@ -8,7 +8,7 @@
     "dotenv": "^4.0.0",
     "hubot": "^2.19.0",
     "hubot-azure-scripts": "^0.1.7",
-    "hubot-botframework": "file:///c:\\dev\\hubot-botframework",
+    "hubot-botframework": "file:hubot-botframework-0.9.0.tgz",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
