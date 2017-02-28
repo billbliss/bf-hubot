@@ -5,6 +5,7 @@
   "author": "Bill Bliss <billbl@microsoft.com>",
   "description": "Bot Framework version of Hubot",
   "dependencies": {
+    "coffee-script": "^1.12.4",
     "dotenv": "^4.0.0",
     "hubot": "^2.19.0",
     "hubot-azure-scripts": "^0.1.7",
