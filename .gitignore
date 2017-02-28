@@ -1,3 +1,4 @@
 node_modules
+!node_modules/hubot-botframework
 .DS_Store*
 .hubot_history
