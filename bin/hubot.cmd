@@ -3,5 +3,13 @@
 call npm install
 SETLOCAL
 SET PATH=node_modules\.bin;node_modules\hubot\node_modules\.bin;%PATH%
+SET HUBOT_ADAPTER=botframework
+SET BOTBUILDER_APP_ID=6a703ff9-1164-4fb0-a58c-65392c9427db
+SET BOTBUILDER_APP_PASSWORD=EfOFpko715eKbN6eu5V9h0h
+SET HUBOT_BRAIN_AZURE_STORAGE_ACCOUNT=devstoreaccount1
+SET HUBOT_BRAIN_AZURE_STORAGE_ACCESS_KEY=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==
+SET HUBOT_BRAIN_USE_STORAGE_EMULATOR=true
 
-node_modules\.bin\hubot.cmd --name "bf-hubot" %* 
+REM SET HUBOT_LOG_LEVEL=debug
+
+node_modules\.bin\hubot.cmd %* 

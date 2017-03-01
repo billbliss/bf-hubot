@@ -4,6 +4,7 @@
   "private": true,
   "author": "Bill Bliss <billbl@microsoft.com>",
   "description": "Bot Framework version of Hubot",
+  "main": "server.js",
   "dependencies": {
     "coffee-script": "^1.12.4",
     "dotenv": "^4.0.0",

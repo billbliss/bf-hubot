@@ -1,5 +1,8 @@
 node_modules/*
 !node_modules/hubot-botframework/*
+!node_modules/hubot-pugme/src/*
 .DS_Store*
 .hubot_history
 .env
+.vscode
+bin/hubot.cmd
