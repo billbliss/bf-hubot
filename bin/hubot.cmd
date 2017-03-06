@@ -13,7 +13,7 @@ REM ***** DEV *****
 SET BOTBUILDER_APP_ID=b1988ba2-4659-4370-8642-737c6315d386
 SET BOTBUILDER_APP_PASSWORD=t6Avz2eYAy9gLOXU67VXAtk
 
-REM Set tenant filter, if needed
+REM Set tenant filter, if needed, e.g. 72f988bf-86f1-41af-91ab-2d7cd011db47 is the microsoft.com tenant
 REM SET HUBOT_TENANT_FILTER=72f988bf-86f1-41af-91ab-2d7cd011db47
 
 SET HUBOT_BRAIN_AZURE_STORAGE_ACCOUNT=devstoreaccount1
