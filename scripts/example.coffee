@@ -10,6 +10,9 @@
 
 module.exports = (robot) ->
 
+  robot.hear /hi|hello/, (res) ->
+    res.send "Type '#{robot.name.toLowerCase()} help' to see what I can do."
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
