@@ -1,6 +1,6 @@
 node_modules/*
-!node_modules/hubot-botframework/*
-!node_modules/hubot-pugme/*
+!node_modules/hubot-botframework
+!node_modules/hubot-pugme
 .DS_Store*
 .hubot_history
 .env
